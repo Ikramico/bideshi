@@ -9,8 +9,19 @@ class Routes {
 
 const List<Routes> routes = <Routes>[
   Routes('Home', Icon(Icons.home_outlined),),
-  Routes('Govt', Icon(Icons.room_service_outlined)),
-  Routes('BMET', Icon(Icons.note_outlined))
+  Routes('Pre-deprature orientation', Icon(Icons.room_service_outlined)),
+  Routes('BMET Clearance', Icon(Icons.note_outlined)),
+  Routes('Search for jobs', Icon(Icons.home_outlined),),
+  Routes('Training Courses', Icon(Icons.room_service_outlined)),
+  Routes('a2i Digital centers', Icon(Icons.note_outlined)),
+  Routes('BRAC Services', Icon(Icons.home_outlined),),
+  Routes('My Certificates', Icon(Icons.room_service_outlined)),
+  Routes('My Documents', Icon(Icons.note_outlined)),
+  Routes('Services near me', Icon(Icons.home_outlined),),
+  Routes('Verify documents', Icon(Icons.room_service_outlined)),
+  Routes('Visa verification', Icon(Icons.note_outlined)),
+  Routes('Chat with us', Icon(Icons.home_outlined),),
+  Routes('Help center', Icon(Icons.room_service_outlined)),
 ];
 
 class NavDrawer extends StatelessWidget {
@@ -27,7 +38,6 @@ class NavDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      
       children: [
 
         Container(
@@ -74,6 +84,7 @@ class NavDrawer extends StatelessWidget {
         ),
         ),
         ),
+        
       ],
     
  
